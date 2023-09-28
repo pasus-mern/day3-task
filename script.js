@@ -1,3 +1,6 @@
+//question 2
+//use the rest countries api url and display all the country flag in console
+
 var request = new XMLHttpRequest();
 request.open("GET", "https://restcountries.com/v3.1/all");
 request.send();
