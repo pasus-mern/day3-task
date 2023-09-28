@@ -1,3 +1,6 @@
+//question 3
+//use rest countries api url and print all countries names,regions,subregion and populations
+
 var request = new XMLHttpRequest();
 request.open("GET", "https://restcountries.com/v3.1/all");
 request.send();
